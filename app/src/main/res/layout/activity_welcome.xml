@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".WelcomeActivity">
+
+
+    <Button
+        android:id="@+id/welcome_driver_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="126dp"
+        android:background="#FFFFFF"
+        android:text="@string/i_m_a_driver"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/welcome_customer_btn"
+        android:layout_width="169dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="474dp"
+        android:layout_marginEnd="125dp"
+        android:background="#FFFFFF"
+        android:text="@string/i_m_a_customer"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="402dp"
+        android:fontFamily="@font/aldrich"
+        android:text="Are you a driver or a customer ?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+</RelativeLayout>

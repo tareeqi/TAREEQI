@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:visibility="visible"
+    tools:context=".DriverLoginRegistgerActivity">
+
+    <TextView
+        android:id="@+id/driver_status"
+        android:layout_width="192dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="95dp"
+        android:fontFamily="@font/aldrich"
+        android:text="Driver Login"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/email_driver"
+        android:layout_width="269dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="314dp"
+        android:layout_marginEnd="82dp"
+        android:background="#63FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="  Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#55B601"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#55B601"
+        android:textColorLink="#55B601" />
+
+    <EditText
+        android:id="@+id/password_driver"
+        android:layout_width="268dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="83dp"
+        android:background="#63FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="  password"
+        android:inputType="textPassword"
+        android:textColor="#55B601"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#55B601" />
+
+    <Button
+        android:id="@+id/driver_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="132dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/aldrich"
+        android:text="Login"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/register_driver_link"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="533dp"
+        android:layout_marginEnd="116dp"
+        android:text="Don't have an account?"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/driver_register_btn"
+        android:layout_width="169dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="565dp"
+        android:layout_marginEnd="132dp"
+        android:background="#F2F3F0"
+        android:fontFamily="@font/aldrich"
+        android:text="Register"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/driver_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="57dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
